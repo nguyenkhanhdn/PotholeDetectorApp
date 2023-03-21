@@ -26,5 +26,12 @@ namespace PotholeDetectorApp.Controllers
 
             return View();
         }
+
+        public ActionResult Monitor()
+        {
+            ViewBag.Message = "Monitor";
+
+            return View();
+        }
     }
 }
